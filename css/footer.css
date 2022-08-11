@@ -1,0 +1,17 @@
+/*FOOTER_START*/
+.footer_background {
+    height: auto;
+    width: 100%;
+    background-color:var(--cor_secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 60px;
+    gap: 60px;
+  }
+
+  /*FOOTER_END*/

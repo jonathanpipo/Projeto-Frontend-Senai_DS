@@ -1,0 +1,27 @@
+/*IMPORTS_START*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400&display=swap');
+@import url(./body.css);
+@import url(./header.css);
+@import url(./fonts.css);
+@import url(./cores.css);
+@import url(./global.css);
+@import url(./section_1.css);
+@import url(./section_2.css);
+@import url(./section_3.css);
+@import url(./section_4.css);
+@import url(./section_5.css);
+@import url(./footer.css);
+/*IMPORTS_END*/
+
+:root{
+/*PALETA DE CORES*/
+  --cor_primaria: #f4f4f4;
+  --cor_primaria_escura: #111F33;
+  --cor_secundaria:#4887DD;
+  --cor_terciaria: #F27852;
+  --cor_branco: white;
+/*FONTS*/
+  --font_primaria: 'Poppins', sans-serif;
+  --font_secundaria: 'Roboto', sans-serif;
+}
+

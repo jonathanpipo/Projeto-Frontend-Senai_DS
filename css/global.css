@@ -1,0 +1,97 @@
+/*CSS RESET START*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  a {
+    text-decoration: none;
+  }
+  /*CSS RESET END*/
+/***********************************/
+  /*CONTAINER*/
+  .container {
+    max-width: 1440px;
+    padding: 0px 30px 0px 30px;
+    margin: 0px auto 0px auto;
+  }
+  /*DISPLAY*/
+  .absolute {
+    display: absolute;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-dir_row {
+    flex-direction: row;
+  }
+  .flex-dir_col {
+    flex-direction: column;
+  }
+  .grid {
+    display: grid;
+  }
+  .j-c_spa-bet {
+    justify-content: space-between;
+  }
+  .j-c_center {
+    justify-content: center;
+  }
+  .j-c_fl_start {
+    justify-content: flex-start;
+  }
+  .j-c_spa-even {
+    justify-content: space-evenly;
+  }
+  .j-i_str {
+    justify-items: stretch;
+  }
+  .a-i_c {
+    align-items: center;
+  }
+  .a-i_end {
+    align-items: end;
+  }
+  .a_i-start {
+    align-items: flex-start;
+  }
+  /*ALTURA/LARGURA*/
+  .h-auto {
+    height: auto;
+  }
+  .h-100 {
+    height: 100%;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  /*CONTAINER*/
+  .txt_ali-center {
+    text-align: center;
+  }
+  .txt_ali-start {
+    text-align: start;
+  }
+  .txt_decoration-none {
+    text-decoration: none;
+  }
+  .list_style-none {
+    list-style: none;
+  }
+  .gap-30 {
+    gap: 30px;
+  }
+  .gap-15 {
+    gap: 15px;
+  }
+/***********************************/

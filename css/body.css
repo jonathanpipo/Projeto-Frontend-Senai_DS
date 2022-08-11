@@ -1,0 +1,20 @@
+/*BODY_START*/
+.app {
+    display: grid;
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho cabecalho cabecalho cabecalho"
+    "conteudo conteudo conteudo conteudo conteudo conteudo"
+    "rodape rodape rodape rodape rodape rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+  .cabecalho {
+    grid-area: cabecalho;
+  }
+  .conteudo{
+    grid-area: conteudo;
+  }
+  .rodape {
+    grid-area: rodape;
+  }
+  /*BODY_END*/

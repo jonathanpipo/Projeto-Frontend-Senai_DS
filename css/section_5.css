@@ -1,0 +1,14 @@
+.section_5_background {
+    background-color: var(--cor_primaria);
+}
+.section_5_container_info {
+    background-color: pink ;
+}
+.section_5_container_info_img {
+    background-color: red;
+    flex: 1;
+}
+.section_5_container_info_text {
+    background-color: green;
+    flex: 2;
+}

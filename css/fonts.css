@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400&display=swap');
+/*CLASSES FONTS START*/
+/*HEADER*/
+.font_header {
+    font-family: var(--font_primaria);
+    font-style: normal;
+    font-size: 1.225em;
+    font-weight: 400;
+    color: var(--cor_secundaria);
+  }
+/*SECTION_1*/
+  .font_section_1_h1 {
+    font-family: var(--font_primaria);
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--cor_secundaria);
+    text-shadow: 2px 2px 2px var(--cor_primaria_escura);
+  }
+  .font_section_1_h1 span {
+    margin-left: 5px;
+    font-family: var(--font_primaria);
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--cor_terciaria);
+    text-shadow: 2px 2px 2px var(--cor_primaria_escura);
+  }
+  .font_section_1_p {
+    font-family: var(--font_secundaria);
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--cor_primaria_escura);
+    line-height: 1.5em;
+  }
+/*SECTION_2*/
+.section_2_info h1{
+  font-family: var(--font_primaria);
+  font-style: normal;
+  font-size: 2em;
+  font-weight: 600;
+  color: var(--cor_primaria);
+  text-shadow: 2px 2px 2px var(--cor_primaria_escura);
+}
+.section_2_info ul {
+  font-family: var(--font_secundaria);
+  font-style: normal;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--cor_primaria_escura);
+  line-height: 1.5em;
+}
+/*SECTION_4*/
+.section_4_container_info h1 {
+  font: normal 600 2em/1.2em 'Poppins', sans-serif;
+  text-shadow: 2px 2px 0 var(--cor_primaria);
+  color: var(--cor_secundaria);
+  -webkit-text-stroke: 1px var(--cor_primaria);
+}
+.section_4_container_info p {
+  font: normal 400 1.3em/1.5em 'Roboto', sans-serif;
+  color: var(--cor_primaria);
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+}
+/*FOOTER*/
+.footer_container_info_1 h1 {
+  font: normal 600 1em/1em 'Poppins', sans-serif;
+  color: var(--cor_primaria);
+}
+.footer_container_info_1 ul li a{
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+  color: var(--cor_primaria);
+}
+.footer_container_info_2 h1 {
+  font: normal 600 1em/1em 'Poppins', sans-serif;
+  color: var(--cor_primaria);
+}
+.footer_container_info_2 ul li a{
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+  color: var(--cor_primaria);
+}
+.footer_container_info_3 h1 {
+  font: normal 600 1em/1em 'Poppins', sans-serif;
+  color: var(--cor_primaria);
+}
+.footer_container_info_3 ul li a{
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+  color: var(--cor_primaria);
+}
+/*CLASSES FONTS END*/
