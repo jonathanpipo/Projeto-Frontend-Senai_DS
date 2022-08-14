@@ -94,4 +94,15 @@
   .gap-15 {
     gap: 15px;
   }
+  /*BLOCK*/
+  .block {
+    display: block;
+  }
+  .inline {
+    display: inline;
+  }
+  .inline_block {
+    display: inline-block;
+  }
+
 /***********************************/

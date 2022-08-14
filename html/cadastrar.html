@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    
+    <section class="section_cadastrar
+    h-auto
+    w-100">
+        <div class="section_cadastrar_background
+        h-auto
+        w-100">
+            <div class="section_cadastrar_background_container container
+            h-auto
+            w-100">
+                <div class="formulario">
+                    <h2 class="formulario_tittle">Cadastrar</h2>
+                    <form class="formulario_info">
+                        <div class="formulario_info_required">
+                            <label class="block" for="name">
+                                <span class="block">Nome completo</span>
+                                <input class="block
+                                w-100" type="text" id="name" name="name" required>
+                            </label>
+                            <!---->
+                            <label class="block" for="e-mail">
+                                <span class="block">E-mail</span>
+                                <input class="block
+                                w-100" type="email" name="e-mail" id="e-mail" required>
+                            </label>
+                            <!---->
+                            <label class="block" for="senha">
+                                <span class="block">Senha</span>
+                                <input class="block
+                                w-100" type="password" name="senha
+                                " id="senha" required>
+                            </label>
+                            <!---->
+                            <label class="block" for="confirmar_senha">
+                                <span class="block">Confirmar senha</span>
+                                <input class="block
+                                w-100" type="password" name="confirmar_senha
+                                " id="confirmar_senha" required>
+                            </label>
+                        </div>
+
+                        <!---->
+                        </br>
+                        <hr></br>
+                        <!---->
+                        <div class="formulario_info_sexo">
+                            <label class="block" for="sexo">Sexo </br>
+                                <input type="radio" name="sexo" id="nao_informar">
+                                <label for="nao_informar">Não informar</label></br>
+                                <input type="radio" name="sexo" id="masculino">
+                                <label for="masculino">Masculino</label></br>
+                                <input type="radio" name="sexo" id="feminino">
+                                <label for="feminino">Feminino</label></br>
+                            </label>
+                        </div>
+                        <!---->
+                        <div class=formulario_info_propaganda">
+                            <label>Como chegou até aqui?</label></br>
+                            <input type="checkbox" id="facebook">
+                            <label for="Facebook">Facebook</label></br>
+                            <input type="checkbox" id="Instagram">
+                            <label for="Instagram">Instagram</label></br>
+                            <input type="checkbox" id="Twitter">
+                            <label for="Twitter">Twitter</label></br>
+                            <input type="checkbox" id="amigo">
+                            <label for="amigo">Por um amigo</label></br>
+                            <input type="checkbox" id="Propaganda">
+                            <label for="Propaganda">Propaganda</label>
+                        </div>
+                        <!---->
+                        <div class="formulario_info_caixa-comentario">
+                            <label for="comentario">Deixe-nos uma mensagem:</label></br>
+                            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
