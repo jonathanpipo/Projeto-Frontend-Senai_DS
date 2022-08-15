@@ -7,16 +7,19 @@
 .formulario {
   height: auto;
   width: 66.67%;
-  margin: 0px auto 0px auto
+  margin: 60px auto 0px auto;
+  padding: 30px;
+  border: 1px solid var(--cor_primaria);
+  background-color: var(--cor_primaria);
+  -webkit-box-shadow: 0px 0px 4px 0px var(--cor_primaria_escura);
+  box-shadow: 0px 0px 4px 0px var(--cor_primaria_escura);
 }
-.formulario_tittle {
 
-}
 .formulario_info {
 
 }
 .formulario_info_required label span {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .formulario_info_required label input {
   margin-bottom: 30px;
@@ -29,4 +32,122 @@
 }
 .formulario_info_caixa-comentario {
 
+}
+
+/*FONTS*/
+.formulario_tittle {
+  font: normal 600 2.5em/1.1em 'Poppins', sans-serif;
+  color: var(--cor_secundaria);
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  text-shadow: 2px 2px 0 var(--cor_primaria_escura);
+}
+.formulario_info label {
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+  color: var(--cor_primaria_escura);
+}
+.formulario_info input[type=text] {
+  background-color: var(--cor_branco);
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  color: var(--cor_primaria_escura);
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+}
+.formulario_info input[type=text]:focus {
+  padding: 5px;
+  -webkit-transition: border 3s ease-out;
+  -moz-transition: border 0.3s ease-out;
+  -o-transition: border 0.3s ease-out;
+  transition: box-shadow 0.3s ease;
+  -webkit-box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  outline: none;
+  border: 2px solid var(--cor_terciaria);
+}
+.formulario_info input[type=email] {
+  background-color: var(--cor_branco);
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+}
+.formulario_info input[type=email]:focus {
+  padding: 5px;
+  -webkit-transition: border 3s ease-out;
+  -moz-transition: border 0.3s ease-out;
+  -o-transition: border 0.3s ease-out;
+  transition: box-shadow 0.3s ease;
+  -webkit-box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  outline: none;
+  border: 2px solid var(--cor_terciaria);
+}
+.formulario_info input[type=password] {
+  background-color: var(--cor_branco);
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  
+}
+.formulario_info input[type=password]:focus {
+  padding: 5px;
+  -webkit-transition: border 3s ease-out;
+  -moz-transition: border 0.3s ease-out;
+  -o-transition: border 0.3s ease-out;
+  transition: box-shadow 0.3s ease;
+  -webkit-box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  outline: none;
+  border: 2px solid var(--cor_terciaria);
+}
+
+.formulario_info_caixa-comentario textarea {
+  background-color: var(--cor_branco);
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  border: 2px solid var(--cor_primaria_escura);
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+}
+.formulario_info_caixa-comentario textarea:focus {
+  padding: 5px;
+  -webkit-transition: border 3s ease-out;
+  -moz-transition: border 0.3s ease-out;
+  -o-transition: border 0.3s ease-out;
+  transition: box-shadow 0.3s ease;
+  -webkit-box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  box-shadow: 0px 0px 4px 0px var(--cor_terciaria);
+  outline: none;
+  border: 2px solid var(--cor_terciaria);
+}
+
+.formulario_info_button {
+  margin-top: 30px;
+}
+.formulario_info_button input {
+  padding: 10px 30px;
+  color: var(--cor_primaria_escura);
+  background-color: var(--cor_primaria);
+  font: normal 600 1em/1em 'Poppins', sans-serif;
+  transition: 0.2s;
+}
+.formulario_info_button input:hover {
+  transition: 0.2s;
+  padding: 10px 30px;
+  color: var(--cor_branco); 
+  background-color: var(--cor_terciaria);
+  -webkit-transition: border 3s ease-out;
+  -moz-transition: border 0.3s ease-out;
+  -o-transition: border 0.3s ease-out;
+  transition: box-shadow 0.3s ease;
+  -webkit-box-shadow: 0px 0px 7px 0px var(--cor_terciaria);
+  box-shadow: 0px 0px 7px 0px var(--cor_terciaria);
+}
+.formulario_info_button input:active {
+  padding: 10px 30px;
+  color: var(--cor_terciaria); 
+  background-color: var(--cor_branco);
+  -webkit-box-shadow: 0px 0px 0px 0px var(--cor_terciaria);
+  box-shadow: 0px 0px 0px 0px var(--cor_terciaria);
 }
