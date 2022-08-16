@@ -1,6 +1,12 @@
 .section_cadastrar {
 
 }
+.section_cadastrar_background {
+  background-image: url(../img/background_cadastrar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .section_cadastrar_background_container {
 
 }
@@ -13,8 +19,12 @@
   background-color: var(--cor_primaria);
   -webkit-box-shadow: 0px 0px 4px 0px var(--cor_primaria_escura);
   box-shadow: 0px 0px 4px 0px var(--cor_primaria_escura);
+  /**/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
-
 .formulario_info {
 
 }
@@ -33,7 +43,6 @@
 .formulario_info_caixa-comentario {
 
 }
-
 /*FONTS*/
 .formulario_tittle {
   font: normal 600 2.5em/1.1em 'Poppins', sans-serif;
@@ -101,7 +110,6 @@
   outline: none;
   border: 2px solid var(--cor_terciaria);
 }
-
 .formulario_info_caixa-comentario textarea {
   background-color: var(--cor_branco);
   border-radius: 5px;
@@ -121,7 +129,6 @@
   outline: none;
   border: 2px solid var(--cor_terciaria);
 }
-
 .formulario_info_button {
   margin-top: 30px;
 }
@@ -150,4 +157,48 @@
   background-color: var(--cor_branco);
   -webkit-box-shadow: 0px 0px 0px 0px var(--cor_terciaria);
   box-shadow: 0px 0px 0px 0px var(--cor_terciaria);
+}
+
+/*TESTE*/
+.dropbtn {
+  background-color: var(--cor_primaria);
+  color: var(--cor_primaria_escura);
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid var(--cor_primaria_escura);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+}
+.formulario_info_container_pais {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--cor_primaria);
+  border: 1px solid var(--cor_primaria_escura);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font: normal 400 1em/1em 'Roboto', sans-serif;
+}
+.dropdown-content a:hover {
+  background-color: var(--cor_terciaria);
+  color: var(--cor_primaria);
+}
+
+.formulario_info_container_pais:hover .dropdown-content {
+  display: block;
+}
+.formulario_info_container_pais:hover .dropbtn {
+  background-color: var(--cor_terciaria);
+  color: var(--cor_primaria);
 }
